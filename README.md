@@ -1,5 +1,5 @@
 ## KAppa Functional Group Analysis (KAFGA)
-![alt text](docs/Logo.png | width=100)
+<img src="docs/Logo.png" width="100">
 
 KAFGA is MATLAB/GNU Octave code to predict the hygroscopicity parameter kappa for organic compounds from functional group composition.
 
