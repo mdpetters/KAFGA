@@ -6,7 +6,7 @@ KAFGA is MATLAB/GNU Octave code to predict the hygroscopicity parameter kappa fo
 __Short summary__ Organic particles suspended in air serve as nucleation seeds for droplets in atmospheric clouds. Over time their chemical composition changes towards more functionalized compounds. This work presents a model that can predict an organic compounds' ability promote the nucleation of cloud drops from its functional group composition. Hydroxyl, carboxyl, aldehyde, hydroperoxide, carbonyl, and ether moieties promote droplet nucleation. Methylene and nitrate moieties inhibit droplet nucleation.
 
 ## Documentation
-The algorithms are described in the [manuscript](docs/gmd-9-111-2016.pdf) and associated [supplement](docs/gmd-9-111-2016-supplement-title-page.pdf). Model calculations graphed in Figures 1-3 (main text) and Figure 1 (supplement) are in the example folders. The most straightforward example is fs01.<br>
+The algorithms are described in the [manuscript](docs/gmd-9-111-2016.pdf) and associated [supplement](docs/gmd-2015-172-si.pdf). Model calculations graphed in Figures 1-3 (main text) and Figure 1 (supplement) are in the example folders. The most straightforward example is fs01.<br>
 
 _Model input files_
  - each compound is represented by a model input file in folder fs01comp
