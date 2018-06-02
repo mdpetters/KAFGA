@@ -28,7 +28,7 @@ _Model input files_
  - Example input file for ethanol CH3-CH2OH
 
                              1           1           0            0
-                             1           0	        0            0
+                             1           0           0            0
                              0           0           0            0
                              0           0           0            0
                              0           0           0            0
