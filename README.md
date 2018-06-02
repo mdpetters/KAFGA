@@ -1,16 +1,11 @@
 ## KAppa Functional Group Analysis (KAFGA)
-<img src="Logo.png" alt="drawing" style="width: 50px"/>
+![alt text](docs/Logo.png | width=100)
 
 KAFGA is MATLAB/GNU Octave code to predict the hygroscopicity parameter kappa for organic compounds from functional group composition.
 
-
 ## Documentation
+The algorithms are described in the [manuscript](docs/gmd-9-111-2016.pdf) and associated [supplement](gmd-9-111-2016-supplement-title-page.pdf). Model calculations graphed in Figures 1-3 and Figure 1 supplement are in the example folders. The most straightforward example is fs01:<br>
 
-The algorithms are described in the [manuscript](docs/gmd-9-111-2016.pdf) and associated [supplement](docs/gmd-9-111-2016.pdf).  
-
-Source scripts are in src/. Model calculations graphed in Figures 1-3 and Figure 1 supplement are in the example folders.
-
-The most straightforward example is fs01:<br>
 _Model input files_
  - each compound is represented by a model input file in folder fs01comp
  - an input file consists of 4 columns and 9 rows
@@ -29,15 +24,16 @@ _Model input files_
                Peroxide    CH2(OOH)    CH(OOH)     C(OOH)      ---
 
  - Example input file for ethanol CH3-CH2OH
-               1           1           0            0
-               1           0	       0            0
-               0           0           0            0
-               0           0           0            0
-               0           0           0            0
-               0           0           0            0
-               0           0           0            0
-               0           0           0            0
-               0           0           0            0
+
+                             1           1           0            0
+                             1           0	       0            0
+                             0           0           0            0
+                             0           0           0            0
+                             0           0           0            0
+                             0           0           0            0
+                             0           0           0            0
+                             0           0           0            0
+                             0           0           0            0
  - Input files for all compounds in gmd-2015-072 are provided in examples
 
  - A component input structure is needed. These are generated in the
@@ -76,6 +72,6 @@ _Model execution and output_
    Octave.
 
 ## Citation
-This work was supported by the United States Department of Energy, Office of Science, Biological and Environment Research, Grant number DE-SC0010470. If you use _KAFGA_  in your research, please cite
+This work was supported by the United States Department of Energy, Office of Science, Biological and Environment Research, Grant number DE-SC0010470. If you use _KAFGA_ in your research, please cite
 
 Petters, M. D., Kreidenweis, S. M., and Ziemann, P. J. (2016). <i> Prediction of cloud condensation nuclei activity for organic compounds using functional group contribution methods, </i> Geoscientific Model Development, 9, 111-124, https://doi.org/10.5194/gmd-9-111-2016.
